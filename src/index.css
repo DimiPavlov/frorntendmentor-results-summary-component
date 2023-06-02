@@ -1,0 +1,36 @@
+:root {
+  --bg-light_red: hsla(0, 100%, 67%, 0.08);
+  --bg-orange_yellow: hsla(39, 100%, 56%, 0.08);
+  --bg-cobalt_blue: hsla(234, 85%, 45%, 0.08);
+  --bg-green_teal: hsla(166, 100%, 37%, 0.08);
+
+  --bg-gradient-slate_blue: hsl(252, 100%, 67%);
+  --bg-gradient-royal_blue: hsl(241, 81%, 54%);
+
+  --circle-violet_blue: hsla(256, 72%, 46%, 1);
+  --circle-persian_blue: hsla(241, 72%, 46%, 0);
+
+  --main-white: hsl(0, 0%, 100%);
+  --main-pale_blue: hsl(221, 100%, 96%);
+  --main-light_lavender: hsl(241, 100%, 89%);
+  --main-dark_gray_blue: hsl(224, 30%, 27%);
+
+  // Typography
+
+  --fs-main: 18px;
+  --fw-bolder: 800;
+  --fw-bold: 700;
+  --fw-normal: 500;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: grid;
+  place-content: center;
+  height: 100vh;
+}
